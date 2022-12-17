@@ -9,3 +9,20 @@ They make AFL techniques appear to be (up to 38%) more effective, and make APR t
 We also find that most developers (83%) consider these assumptions to be unsuitable for debuggers and perhaps worse that they may inhibit development productivity.
 The majority (66%) of developers prefer debugging diagnoses without these assumptions twice as much as with the assumptions.
 Our findings motivate the need to assess debuggers conservatively, i.e., without these assumptions.
+
+## Setup and Infrastructure
+
+* **Download** the [artifact](todo)
+* **Read** the [full paper](todo) (ICSE 2023)
+
+# How to cite?
+
+```bibtex
+@inproceedings{debuggingassumptions,
+    TODO
+}
+```
+
+# Who are we?
+
+# Links
