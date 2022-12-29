@@ -10,7 +10,7 @@ We also find that most developers (83%) consider these assumptions to be unsuita
 The majority (66%) of developers prefer debugging diagnoses without these assumptions twice as much as with the assumptions.
 Our findings motivate the need to assess debuggers conservatively, i.e., without these assumptions.
 
-<p style="position:fixed; left: 50%; top: 200px; transform: translate(-515px, 0%); width: 170px; padding: 0px">
+<p style="position:fixed; left: 50%; top: 300px; transform: translate(-515px, 0%); width: 170px; padding: 0px">
 <a href="#faq">FAQ</a><br/>
 <a href="#setup">Setup</a><br/>
 <a href="#cite">How to cite</a><br/>
@@ -21,7 +21,23 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 
 <p style="text-align: center;">
 <img src="screenshots/workflow.png" alt="Workflow" width="500"/><br />
-_Workflow of our approach_
+<i>Workflow of our approach</i>
+</p>
+
+<p style="text-align: center;">
+<img src="screenshots/assumption_prevalence.png" alt="Prevalence in experiments" width="500"/><br />
+<img src="screenshots/assumption_bugs.png" alt="Prevalence in bugs" width="500"/><br />
+<i>Prevalence of the examined debugging assumptions in experiments (top) and bugs (bottom) in practice</i>
+</p>
+
+<p style="text-align: center;">
+<img src="screenshots/venues.png" alt="Venues the examined literature was taken from" width="250"/><br />
+<i>Venues we examined and collected literature from</i>
+</p>
+
+<p style="text-align: center;">
+<img src="screenshots/benchmarks.png" alt="Benchmarks that were used in the AFL and APR experiments" width="500"/><br />
+<i>Benchmarks that were used in the AFL and APR experiments</i>
 </p>
 
 ## <a name="setup" /> Setup and Infrastructure
