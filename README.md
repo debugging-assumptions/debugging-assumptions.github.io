@@ -14,6 +14,8 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 <a href="#faq">FAQ</a><br/>
 <a href="#setup">Setup</a><br/>
 <a href="#cite">How to cite</a><br/>
+<a href="artifact/ARTIFACT.md">Artifact Readme</a><br/>
+<a href="TODO">Download the Artifact</a><br/>
 <a href="https://TODO" target="_blank"><img src="screenshots/paper.png" alt="Paper" style="width: 170px;"/></a></p>
 
 <p align="center"><img src="mainobjective.png" alt="Main Objectives" width="100%" /></p>
@@ -42,7 +44,9 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 
 ## <a name="setup" /> Setup and Infrastructure
 
-* **Download** the [artifact](todo)
+See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md)_.
+
+* **Download** the [artifact and datasets](todo) (MIT licensed)
 * **Read** the [full paper](todo) (ICSE 2023)
 
 # <a name="cite" /> How to cite?
