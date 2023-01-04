@@ -1,5 +1,7 @@
 # ICSE 2023 Artifact README
 
+This artifact package is licensed under a [MIT License](LICENSE.md)
+
 # Setup and Installation
 
 In order to set up the artifact, you need to extract the content of the `icse2023_artifact.zip` archive into a folder of your choice.

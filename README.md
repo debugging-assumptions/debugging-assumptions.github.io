@@ -14,7 +14,8 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 <a href="#faq">FAQ</a><br/>
 <a href="#setup">Setup</a><br/>
 <a href="#cite">How to cite</a><br/>
-<a href="artifact/ARTIFACT.md">Artifact Readme</a><br/>
+<a href="artifact/ARTIFACT">Artifact Readme</a><br/>
+<a href="artifact/DOCKER">Docker Readme</a><br/>
 <a href="TODO">Download the Artifact</a><br/>
 <a href="https://TODO" target="_blank"><img src="screenshots/paper.png" alt="Paper" style="width: 170px;"/></a></p>
 
@@ -53,19 +54,26 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
 
 ```bibtex
 @inproceedings{debug-assumptions, 
-  author = {Soremekun, Ezekiel and Kirschner, Lukas and B\"{o}hme, Marcel and Papadakis, Mike}, 
-  title = {Evaluating the Impact of Experimental Assumptions in Automated Fault Localization}, 
-  booktitle = {Proceedings of the ACM/IEEE 45th International Conference on Software Engineering}, 
-  series = {ICSE 2023}, 
-  pages = {1-13}, 
-  year = {2023},
+    author = {Soremekun, Ezekiel and Kirschner, Lukas and B\"{o}hme, Marcel and Papadakis, Mike}, 
+    title = {Evaluating the Impact of Experimental Assumptions in Automated Fault Localization}, 
+    booktitle = {Proceedings of the ACM/IEEE 45th International Conference on Software Engineering}, 
+    series = {ICSE 2023}, 
+    pages = {1-13}, 
+    year = {2023},
 }
 ```
 
 ### Cite the artifact
 
 ```bibtex
-TODO
+@article{debug-assumptions-artifact,
+    author = "Ezekiel Soremekun and Lukas Kirschner and Marcel Böhme and Mike Papadakis",
+    title = "{Debugging Assumptions Artifact}",
+    year = "2023",
+    month = "1",
+    url = "https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743",
+    doi = "10.6084/m9.figshare.21786743.v1"
+} 
 ```
 
 # Who are we?
