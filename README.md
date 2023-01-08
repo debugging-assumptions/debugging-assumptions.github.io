@@ -19,7 +19,6 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 <a href="https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743">Download the Artifact</a><br/>
 <a href="https://TODO" target="_blank"><img src="screenshots/paper.png" alt="Paper" style="width: 170px;"/></a></p>
 
-<p align="center"><img src="mainobjective.png" alt="Main Objectives" width="100%" /></p>
 <br/>
 
 In a controlled experiment, we analyzed the effectiveness of 19 fault localization techniques under the presence and absence of these assumptions.
