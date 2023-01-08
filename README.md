@@ -22,10 +22,23 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 <p align="center"><img src="mainobjective.png" alt="Main Objectives" width="100%" /></p>
 <br/>
 
+In a controlled experiment, we analyzed the effectiveness of 19 fault localization techniques under the presence and absence of these assumptions.
+We analyzed the impact of the assumptions on 2 popular automated program repair (APR) tools and conducted an user study with 76 developers to measure soundness, severity and utility of these assumptions in practice.
+
 <p style="text-align: center;">
 <img src="screenshots/workflow.png" alt="Workflow" width="500"/><br />
 <i>Workflow of our approach</i>
 </p>
+
+To evaluate the prevalence of the three assumptions in literature, we surveyed a large number of publications related to the topics of automated fault localization and automated program repair.
+
+<p style="text-align: center;">
+<img src="screenshots/venues.png" alt="Venues the examined literature was taken from" width="250"/><br />
+<i>Venues we examined and collected literature from</i>
+</p>
+
+We found those assumptions to be highly prevalent in the existing literature: 55% of experiments in the surveyed publications make at least one of the three assumptions.
+Similarly, about half (49%) of the bugs in the bug datasets are impacted by at least one of the three assumptions.
 
 <p style="text-align: center;">
 <img src="screenshots/assumption_prevalence.png" alt="Prevalence in experiments" width="500"/><br />
@@ -33,10 +46,7 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 <i>Prevalence of the examined debugging assumptions in experiments (top) and bugs (bottom) in practice</i>
 </p>
 
-<p style="text-align: center;">
-<img src="screenshots/venues.png" alt="Venues the examined literature was taken from" width="250"/><br />
-<i>Venues we examined and collected literature from</i>
-</p>
+In the automated fault localization (AFL) and automated program repair (APR) experiments, we employed 4 bug datasets (CoreBench, SIR, IntroCLass and Codeflaws) including a high variance of bugs (real, seeded, mutated) and a varying complexity and maturity of programs.
 
 <p style="text-align: center;">
 <img src="screenshots/benchmarks.png" alt="Benchmarks that were used in the AFL and APR experiments" width="500"/><br />
