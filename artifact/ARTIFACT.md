@@ -1,5 +1,7 @@
 # ICSE 2023 Artifact README
 
+* **Download** the [artifact and datasets](https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743) (MIT licensed)
+
 This artifact package is licensed under a [MIT License](LICENSE.md)
 
 # Setup and Installation
