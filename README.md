@@ -16,7 +16,7 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 <a href="#cite">How to cite</a><br/>
 <a href="artifact/ARTIFACT">Artifact Readme</a><br/>
 <a href="artifact/DOCKER">Docker Readme</a><br/>
-<a href="TODO">Download the Artifact</a><br/>
+<a href="https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743">Download the Artifact</a><br/>
 <a href="https://TODO" target="_blank"><img src="screenshots/paper.png" alt="Paper" style="width: 170px;"/></a></p>
 
 <p align="center"><img src="mainobjective.png" alt="Main Objectives" width="100%" /></p>
@@ -47,7 +47,7 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 
 See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md)_.
 
-* **Download** the [artifact and datasets](todo) (MIT licensed)
+* **Download** the [artifact and datasets](https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743) (MIT licensed)
 * **Read** the [full paper](todo) (ICSE 2023)
 
 # <a name="cite" /> How to cite?
@@ -77,6 +77,11 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
 ```
 
 # Who are we?
+
+* [Ezekiel Soremekun](https://ezekiel-soremekun.github.io/), [Interdisciplinary Centre for Security, Reliability and Trust](https://wwwfr.uni.lu/snt), Luxembourg
+* [Lukas Kirschner](https://www.lukaskirschner.de), [Interdisciplinary Centre for Security, Reliability and Trust](https://wwwfr.uni.lu/snt), Reliability and Trust, Luxembourg
+* [Marcel Böhme](https://mboehme.github.io/), Max Planck Institute for Security and Privacy Bochum, Germany
+* [Mike Papadakis](https://mpapad.github.io/), [Interdisciplinary Centre for Security, Reliability and Trust](https://wwwfr.uni.lu/snt), Luxembourg
 
 # <a name="faq" /> FAQ
 
