@@ -1,6 +1,6 @@
 # Using the Docker Image
 
-We provide a Docker image based on Debian Bullseye that already contains all benchmarks and tools required to run the experiments. For Angelix and Prophet, we use separate Docker images that are called through a Docker-in-Docker setup in the main image by sharing the Docker daemon of the host machine. The Angelix and Prophet Docker images need to be built before the main Docker image.
+We provide a Docker image based on Debian Bullseye that already contains all benchmarks and tools required to run the experiments. For Angelix, we use a separate Docker image which is called through a Docker-in-Docker setup in the main image by sharing the Docker daemon of the host machine. The Angelix Docker image needs to be built before building the main Docker image.
 
 ## Building and running the Docker Image
 
