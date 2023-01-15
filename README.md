@@ -77,7 +77,7 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
 ```bibtex
 @article{debug-assumptions-artifact,
     author = "Ezekiel Soremekun and Lukas Kirschner and Marcel Böhme and Mike Papadakis",
-    title = "{Debugging Assumptions Artifact}",
+    title = "{Artifact for Evaluating the Impact of Experimental Assumptions in Automated Fault Localization}",
     year = "2023",
     month = "1",
     url = "https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743",
