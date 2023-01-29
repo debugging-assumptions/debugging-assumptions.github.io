@@ -27,12 +27,11 @@ A major challenge in automated debugging research is the practical evaluation of
 
 To address these concerns, we study the impact of experimental assumptions in debugging practice using controlled experimentation. We conduct a large empirical study to evaluate the impact of the three aforementioned assumptions in debugging practice using controlled experimentation.
  
-### Contributions
-
-
-
+ 
 ### Experimental Approach
-The main research method employed in this work is *controlled experimentation* (aka *split or A/B testing*). Our experiments involved controlled experiments with debuggers and developers. Controlled experimentation is widely used to test new features in software companies (e.g., Netflix and Google) to guide product development and data-driven decisions. To determine the prevalence of each assumption (RQ1), we perform data analysis and manual in-depth study of the literature and bug datasets. Below is a workflow of our experimental approach:
+The main research method employed in this work is *controlled experimentation* (aka *split or A/B testing*). Our experiments involved controlled experiments with debuggers and developers. Controlled experimentation is widely used to test new features in software companies (e.g., Netflix and Google) to guide product development and data-driven decisions. To determine the prevalence of each assumption (RQ1), we perform data analysis and manual in-depth study of the literature and bug datasets. 
+
+Here is a workflow of our experimental approach:
 
 <p style="text-align: center;">
 <img src="screenshots/workflow.png" alt="Workflow" width="500"/><br />
@@ -40,7 +39,7 @@ The main research method employed in this work is *controlled experimentation* (
 </p>
 
 
-### Prevalence analysis (Survey)
+### Prevalence analysis
 To evaluate the prevalence of the three assumptions in literature, we surveyed a large number of publications related to the topics of automated fault localization and automated program repair.
 
 <p style="text-align: center;">
@@ -48,20 +47,28 @@ To evaluate the prevalence of the three assumptions in literature, we surveyed a
 <i>Venues we examined and collected literature from</i>
 </p>
 
+
+#### Literature Prevalence 
+
 We found those assumptions to be highly prevalent in the existing literature: 55% of experiments in the surveyed publications make at least one of the three assumptions.
-Similarly, about half (49%) of the bugs in the bug datasets are impacted by at least one of the three assumptions.
 
 <p style="text-align: center;">
 <img src="screenshots/assumption_prevalence.png" alt="Prevalence in experiments" width="500"/><br />
+<i>Prevalence in Literature</i>
+</p>
+
+#### Prevalence in Bug Datasets
+
+Similarly, about half (49%) of the bugs in the bug datasets are impacted by at least one of the three assumptions.
+
+<p style="text-align: center;">
 <img src="screenshots/assumption_bugs.png" alt="Prevalence in bugs" width="500"/><br />
-<i>Prevalence of the examined debugging assumptions in experiments (top) and bugs (bottom) in practice</i>
+<i>Prevalence of in Bug Datasets</i>
 </p>
 
 ### AFL and APR Experiments
 
-In a controlled experiment, we analyzed the effectiveness of 19 fault localization techniques under the presence and absence of these assumptions. We analyzed the impact of the assumptions on 2 popular automated program repair (APR) tools. 
-
-In the automated fault localization (AFL) and automated program repair (APR) experiments, we employed 4 bug datasets (CoreBench, SIR, IntroCLass and Codeflaws) including a high variance of bugs (real, seeded, mutated) and a varying complexity and maturity of programs.
+In a controlled experiment, we analyzed the effectiveness of 19 fault localization techniques under the presence and absence of these assumptions. We analyzed the impact of the assumptions on 2 popular automated program repair (APR) tools. We employed 4 bug datasets (CoreBench, SIR, IntroCLass and Codeflaws) including a high variance of bugs (real, seeded, mutated) and a varying complexity and maturity of programs.
 
 <p style="text-align: center;">
 <img src="screenshots/benchmarks.png" alt="Benchmarks that were used in the AFL and APR experiments" width="500"/><br />
@@ -70,9 +77,10 @@ In the automated fault localization (AFL) and automated program repair (APR) exp
 
 ### User Study
 
-We conducted an user study with 76 developers to measure soundness, severity and utility of these assumptions in practice.
+We conducted a user study with 76 developers to measure the *soundness*, *severity* and *utility* of these assumptions in practice.
 
-
+In our [artifact](https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743), we provide the user study questionnaire containing the questions posed to developers about debugging eight (8) buggy programs and 16 debugging diagnoses. We also provide the responses of participants from the user study
+as well as our analysis of developers’ responses.
 
 ## <a name="setup" /> Setup and Infrastructure
 
