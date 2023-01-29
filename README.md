@@ -34,7 +34,7 @@ The main research method employed in this work is *controlled experimentation* (
 Here is a workflow of our experimental approach:
 
 <p style="text-align: center;">
-<img src="screenshots/workflow.png" alt="Workflow" width="500"/><br />
+<img src="screenshots/workflow.png" alt="Workflow" width="800"/><br />
 <i>Workflow of our approach</i>
 </p>
 
