@@ -12,6 +12,7 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 
 <p style="position:fixed; left: 50%; top: 300px; transform: translate(-515px, 0%); width: 170px; padding: 0px">
 <a href="#faq">FAQ</a><br/>
+<a href="#short-abstract">Short Abstract</a><br/>
 <a href="#setup">Setup</a><br/>
 <a href="#cite">How to cite</a><br/>
 <a href="artifact/ARTIFACT">Artifact Readme</a><br/>
@@ -20,6 +21,8 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 <a href="https://drive.google.com/file/d/1Q0lqaZtoC_rKP41RxyWshaNU-z9x49Wa/view?usp=sharing" target="_blank"><img src="screenshots/paper.png" alt="Paper" style="width: 170px;"/></a></p>
 
 <br/>
+
+## <a name="short-abstract" /> Short Abstract
 
 ### Main Objective
 
@@ -99,7 +102,7 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
 
 <br/>
 
-# <a name="cite" /> How to cite?
+## <a name="cite" /> How to cite?
 
 
 ### Cite the Paper
