@@ -21,14 +21,18 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 
 <br/>
 
-## Main Objective
+### Main Objective
+
+A major challenge in automated debugging research is the practical evaluation of debuggers, e.g., automated fault localization (AFL) methods. Researchers make several experimental assumptions about debugging practice when evaluating debuggers *in the lab*. These includes assumptions about the debugging settings, e.g., bugs, programs and developers. Most common experimental assumptions include (a) perfect bug understanding (PBU), (b) using fix locations as root cause bug diagnosis, and (c) assuming a single fault location. These assumptions may impact the measured effectiveness of debuggers. Besides, they do not often align with debugging practice (e.g., developer’s expectations). Consequently, these assumptions often lead to a mismatch between debugging evaluations *in the lab* versus *software practice*.
+
+To address these concerns, we study the impact of experimental assumptions in debugging practice using controlled experimentation. We conduct a large empirical study to evaluate the impact of the three aforementioned assumptions in debugging practice using controlled experimentation.
+ 
+### Contributions
 
 
-## Contributions
 
-## Experimental Approach
-In a controlled experiment, we analyzed the effectiveness of 19 fault localization techniques under the presence and absence of these assumptions.
-We analyzed the impact of the assumptions on 2 popular automated program repair (APR) tools and conducted an user study with 76 developers to measure soundness, severity and utility of these assumptions in practice.
+### Experimental Approach
+The main research method employed in this work is *controlled experimentation* (aka *split or A/B testing*). Our experiments involved controlled experiments with debuggers and developers. Controlled experimentation is widely used to test new features in software companies (e.g., Netflix and Google) to guide product development and data-driven decisions. To determine the prevalence of each assumption (RQ1), we perform data analysis and manual in-depth study of the literature and bug datasets. Below is a workflow of our experimental approach:
 
 <p style="text-align: center;">
 <img src="screenshots/workflow.png" alt="Workflow" width="500"/><br />
@@ -55,6 +59,8 @@ Similarly, about half (49%) of the bugs in the bug datasets are impacted by at l
 
 ### AFL and APR Experiments
 
+In a controlled experiment, we analyzed the effectiveness of 19 fault localization techniques under the presence and absence of these assumptions. We analyzed the impact of the assumptions on 2 popular automated program repair (APR) tools. 
+
 In the automated fault localization (AFL) and automated program repair (APR) experiments, we employed 4 bug datasets (CoreBench, SIR, IntroCLass and Codeflaws) including a high variance of bugs (real, seeded, mutated) and a varying complexity and maturity of programs.
 
 <p style="text-align: center;">
@@ -64,7 +70,8 @@ In the automated fault localization (AFL) and automated program repair (APR) exp
 
 ### User Study
 
-TODO
+We conducted an user study with 76 developers to measure soundness, severity and utility of these assumptions in practice.
+
 
 
 ## <a name="setup" /> Setup and Infrastructure
@@ -75,6 +82,9 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
 * **Read** the [full paper](https://drive.google.com/file/d/1Q0lqaZtoC_rKP41RxyWshaNU-z9x49Wa/view?usp=sharing) (ICSE 2023)
 
 # <a name="cite" /> How to cite?
+
+
+### Cite the Paper
 
 ```bibtex
 @inproceedings{debug-assumptions, 
@@ -87,7 +97,7 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
 }
 ```
 
-### Cite the artifact
+### Cite the Artifact
 
 ```bibtex
 @article{Soremekun2023,
@@ -103,10 +113,22 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
 # Who are we?
 
 * [Ezekiel Soremekun](https://ezekiel-soremekun.github.io/), [RHUL UK](https://www.royalholloway.ac.uk/) & [SnT](https://wwwfr.uni.lu/snt), Luxembourg
-* [Lukas Kirschner](https://www.lukaskirschner.de), [Interdisciplinary Centre for Security, Reliability and Trust](https://wwwfr.uni.lu/snt), Reliability and Trust, Luxembourg
-* [Marcel Böhme](https://mboehme.github.io/), Max Planck Institute for Security and Privacy Bochum, Germany
-* [Mike Papadakis](https://mpapad.github.io/), [Interdisciplinary Centre for Security, Reliability and Trust](https://wwwfr.uni.lu/snt), Luxembourg
+* [Lukas Kirschner](https://www.lukaskirschner.de), [Interdisciplinary Centre for Security, Reliability and Trust (SnT)](https://wwwfr.uni.lu/snt), Reliability and Trust, Luxembourg
+* [Marcel Böhme](https://mboehme.github.io/), Max Planck Institute for Security and Privacy (MPI-SP), Bochum, Germany
+* [Mike Papadakis](https://mpapad.github.io/), [Interdisciplinary Centre for Security, Reliability and Trust (SnT)](https://wwwfr.uni.lu/snt), Luxembourg
 
 # <a name="faq" /> FAQ
 
 # Links
+
+Previous related works on Automated Debugging:
+
+* [EMSE 21:Locating Faults with Program Slicing: An Empirical Analysis](https://arxiv.org/pdf/2101.03008)
+
+* [FSE 17: DBGBench](https://publications.cispa.saarland/1468/1/FSE17.pdf)
+
+* [ICSE 23: Debugging Inputs](https://publications.cispa.saarland/3060/1/camera-ready-submission.pdf)
+
+
+
+
