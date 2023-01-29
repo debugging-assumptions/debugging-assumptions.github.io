@@ -25,21 +25,21 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 
 # <a name="faq" /> FAQ
 
-* [Where can I download the original Paper?](https://drive.google.com/file/d/1Q0lqaZtoC_rKP41RxyWshaNU-z9x49Wa/view)
+* [Where can I *download the paper*?](https://drive.google.com/file/d/1Q0lqaZtoC_rKP41RxyWshaNU-z9x49Wa/view)
 
-* [How do I cite this paper?]("#cite")
+* [How do I *cite this paper/artifact*?]("cite")
 
-* [How can I learn more about your research?]("#learn")
+* [How can I *learn more* about your research?]("#learn")
 
 * [I am in the **ICSE 23 AEC**. How do I **navigate this artifact**?](https://debugging-assumptions.github.io/artifact/ARTIFACT)
 
 * [How do I **use the Docker Image**?](https://drive.google.com/file/d/17m_FcJZW3LxP9LrV16d-A5wdcfEvOhDu/view?usp=sharing)
 
-* [How can I reproduce this study for other subjects, AFL/APR Tools, Programming languages or developers?](https://debugging-assumptions.github.io/artifact/DOCKER)
+* [How can I *reproduce this study* for other subjects, AFL/APR Tools, Programming languages or developers?](https://debugging-assumptions.github.io/artifact/DOCKER)
 
 * [How do I **install the Docker Image**?](https://debugging-assumptions.github.io/artifact/DOCKER)
 
-* [Where can I read more about the artifact?](https://drive.google.com/file/d/17m_FcJZW3LxP9LrV16d-A5wdcfEvOhDu/view?usp=sharing)
+* [Where can I *read about the artifact*?](https://drive.google.com/file/d/17m_FcJZW3LxP9LrV16d-A5wdcfEvOhDu/view?usp=sharing)
 
 
 
