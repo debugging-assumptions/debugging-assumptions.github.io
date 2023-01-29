@@ -26,7 +26,8 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 A major challenge in automated debugging research is the practical evaluation of debuggers, e.g., automated fault localization (AFL) methods. Researchers make several experimental assumptions about debugging practice when evaluating debuggers *in the lab*. These includes assumptions about the debugging settings, e.g., bugs, programs and developers. Most common experimental assumptions include (a) perfect bug understanding (PBU), (b) using fix locations as root cause bug diagnosis, and (c) assuming a single fault location. These assumptions may impact the measured effectiveness of debuggers. Besides, they do not often align with debugging practice (e.g., developer’s expectations). Consequently, these assumptions often lead to a mismatch between debugging evaluations *in the lab* versus *software practice*.
 
 To address these concerns, we study the impact of experimental assumptions in debugging practice using controlled experimentation. We conduct a large empirical study to evaluate the impact of the three aforementioned assumptions in debugging practice using controlled experimentation.
- 
+
+<br/>
  
 ### Experimental Approach
 The main research method employed in this work is *controlled experimentation* (aka *split or A/B testing*). Our experiments involved controlled experiments with debuggers and developers. Controlled experimentation is widely used to test new features in software companies (e.g., Netflix and Google) to guide product development and data-driven decisions. To determine the prevalence of each assumption (RQ1), we perform data analysis and manual in-depth study of the literature and bug datasets. 
@@ -38,6 +39,7 @@ Here is a workflow of our experimental approach:
 <i>Workflow of our approach</i>
 </p>
 
+<br/>
 
 ### Prevalence analysis
 To evaluate the prevalence of the three assumptions in literature, we surveyed a large number of publications related to the topics of automated fault localization and automated program repair.
@@ -48,7 +50,7 @@ To evaluate the prevalence of the three assumptions in literature, we surveyed a
 </p>
 
 
-#### Literature Prevalence 
+#### *Literature Prevalence*
 
 We found those assumptions to be highly prevalent in the existing literature: 55% of experiments in the surveyed publications make at least one of the three assumptions.
 
@@ -57,7 +59,7 @@ We found those assumptions to be highly prevalent in the existing literature: 55
 <i>Prevalence in Literature</i>
 </p>
 
-#### Prevalence in Bug Datasets
+#### *Prevalence in Bug Datasets*
 
 Similarly, about half (49%) of the bugs in the bug datasets are impacted by at least one of the three assumptions.
 
@@ -65,6 +67,8 @@ Similarly, about half (49%) of the bugs in the bug datasets are impacted by at l
 <img src="screenshots/assumption_bugs.png" alt="Prevalence in bugs" width="500"/><br />
 <i>Prevalence of in Bug Datasets</i>
 </p>
+
+<br/>
 
 ### AFL and APR Experiments
 
@@ -75,6 +79,8 @@ In a controlled experiment, we analyzed the effectiveness of 19 fault localizati
 <i>Benchmarks that were used in the AFL and APR experiments</i>
 </p>
 
+<br/>
+
 ### User Study
 
 We conducted a user study with 76 developers to measure the *soundness*, *severity* and *utility* of these assumptions in practice.
@@ -82,12 +88,16 @@ We conducted a user study with 76 developers to measure the *soundness*, *severi
 In our [artifact](https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743), we provide the user study questionnaire containing the questions posed to developers about debugging eight (8) buggy programs and 16 debugging diagnoses. We also provide the responses of participants from the user study
 as well as our analysis of developers’ responses.
 
+<br/>
+
 ## <a name="setup" /> Setup and Infrastructure
 
 See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md)_.
 
 * **Download** the [artifact and datasets](https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743) (MIT licensed)
 * **Read** the [full paper](https://drive.google.com/file/d/1Q0lqaZtoC_rKP41RxyWshaNU-z9x49Wa/view?usp=sharing) (ICSE 2023)
+
+<br/>
 
 # <a name="cite" /> How to cite?
 
@@ -117,6 +127,7 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
     doi = "10.6084/m9.figshare.21786743.v6"
 } 
 ```
+<br/>
 
 # Who are we?
 
@@ -126,6 +137,8 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
 * [Mike Papadakis](https://mpapad.github.io/), [Interdisciplinary Centre for Security, Reliability and Trust (SnT)](https://wwwfr.uni.lu/snt), Luxembourg
 
 # <a name="faq" /> FAQ
+
+<br/> 
 
 # Links
 
