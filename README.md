@@ -37,7 +37,7 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 
 * [How do I **use the Docker Image**?](https://drive.google.com/file/d/17m_FcJZW3LxP9LrV16d-A5wdcfEvOhDu/view?usp=sharing)
 
-* [How can I **reproduce this study* with other subjects, AFL/APR Tools, Programming languages or developers?](artifact/DOCKER)
+* [How can I **reproduce this study** with other subjects, AFL/APR Tools, Programming languages or developers?](artifact/DOCKER)
 
 
 * [Where can I **read about the artifact**?](https://drive.google.com/file/d/17m_FcJZW3LxP9LrV16d-A5wdcfEvOhDu/view?usp=sharing)
