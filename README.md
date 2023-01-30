@@ -77,18 +77,16 @@ To evaluate the prevalence of the three assumptions in literature, we surveyed a
 </p>
 
 
-#### *Literature Prevalence*
-
-We found those assumptions to be highly prevalent in the existing literature: 55% of experiments in the surveyed publications make at least one of the three assumptions.
+**Prevalence in Debugging Literature:** We found those assumptions to be highly prevalent in the existing literature: 55% of experiments in the surveyed publications make at least one of the three assumptions.
 
 <p style="text-align: center;">
 <img src="screenshots/assumption_prevalence.png" alt="Prevalence in experiments" width="500"/><br />
 <i>Prevalence in Literature</i>
 </p>
 
-#### *Prevalence in Bug Datasets*
+<br/>
 
-Similarly, about half (49%) of the bugs in the bug datasets are impacted by at least one of the three assumptions.
+**Prevalence in Bug Datasets:** Similarly, about half (49%) of the bugs in the bug datasets are impacted by at least one of the three assumptions.
 
 <p style="text-align: center;">
 <img src="screenshots/assumption_bugs.png" alt="Prevalence in bugs" width="500"/><br />
@@ -168,7 +166,7 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
 
 # Links
 
-HEre is the [artifact](https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743) and [abstract for the artifact](https://drive.google.com/file/d/17m_FcJZW3LxP9LrV16d-A5wdcfEvOhDu/view?usp=sharing). 
+The [artifact](https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743) and [abstract for the artifact](https://drive.google.com/file/d/17m_FcJZW3LxP9LrV16d-A5wdcfEvOhDu/view?usp=sharing) are publicly available. 
 
 Previous related works on Automated Debugging:
 
