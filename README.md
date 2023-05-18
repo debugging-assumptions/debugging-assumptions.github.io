@@ -25,6 +25,8 @@ Our findings motivate the need to assess debuggers conservatively, i.e., without
 
 # <a name="faq" /> FAQ
 
+* [Where can I **download the ICSE 2023 presentation slides**?](slides/ICSE_2023_short.pptx)
+
 * [Where can I **download the paper**?](https://drive.google.com/file/d/1Q0lqaZtoC_rKP41RxyWshaNU-z9x49Wa/view)
 
 * [How do I **cite this paper/artifact**?](#cite)
@@ -156,9 +158,9 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
 
 #  <a name="learn" /> Who are we?
 
-* [Ezekiel Soremekun](https://ezekiel-soremekun.github.io/), [RHUL UK](https://www.royalholloway.ac.uk/) & [SnT](https://wwwfr.uni.lu/snt), Luxembourg
-* [Lukas Kirschner](https://www.lukaskirschner.de), [Interdisciplinary Centre for Security, Reliability and Trust (SnT)](https://wwwfr.uni.lu/snt), Reliability and Trust, Luxembourg
-* [Marcel Böhme](https://mboehme.github.io/), Max Planck Institute for Security and Privacy (MPI-SP), Bochum, Germany
+* [Ezekiel Soremekun](https://ezekiel-soremekun.github.io/), [Royal Holloway, University of London (RHUL)](https://www.royalholloway.ac.uk/), Egham, United Kingdom (UK) 
+* [Lukas Kirschner](https://www.lukaskirschner.de), [Saarland University](https://www.uni-saarland.de/en/home.html), Saarbrücken, Germany
+* [Marcel Böhme](https://mboehme.github.io/), [Max Planck Institute for Security and Privacy (MPI-SP)](https://www.mpi-sp.org/), Bochum, Germany
 * [Mike Papadakis](https://mpapad.github.io/), [Interdisciplinary Centre for Security, Reliability and Trust (SnT)](https://wwwfr.uni.lu/snt), Luxembourg
 
 <br/> 
@@ -166,7 +168,7 @@ See _[how to set up and run the artifact (Artifact README)](artifact/ARTIFACT.md
 
 # Links
 
-The [artifact](https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743) and [abstract for the artifact](https://drive.google.com/file/d/17m_FcJZW3LxP9LrV16d-A5wdcfEvOhDu/view?usp=sharing) are publicly available. 
+The [ICSE 2023 presentation slides](slides/ICSE_2023_short.pptx), [artifact](https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743) and [abstract for the artifact](https://drive.google.com/file/d/17m_FcJZW3LxP9LrV16d-A5wdcfEvOhDu/view?usp=sharing) are publicly available. 
 
 Previous related works on Automated Debugging:
 
